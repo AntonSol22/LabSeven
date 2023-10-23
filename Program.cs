@@ -15,7 +15,7 @@ namespace CaclGit
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число: ");
             b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Выберите действие из предложенных: +, -, *, /");
+            Console.WriteLine("Выберите действие из предложенных: +, -, *, /, отмена");
             string action = Convert.ToString(Console.ReadLine());   
 
             switch (action)
@@ -30,7 +30,14 @@ namespace CaclGit
                     Console.WriteLine("Ответ: " + (a * b));
                     break;
                 case "/":
+                    if (b == 0)
+                    {
+                        Console.WriteLine("Ошибка, на ноль делить нельзя!");
+                    }
                     Console.WriteLine("Ответ: " + (a / b));
+                    break;
+                case "отмена":
+                    Console.WriteLine("Программа отменена!");
                     break;
             }
         }
