@@ -30,6 +30,10 @@ namespace CaclGit
                     Console.WriteLine("Ответ: " + (a * b));
                     break;
                 case "/":
+                    if (b == 0)
+                    {
+                        Console.WriteLine("Ошибка, на ноль делить нельзя!");
+                    }
                     Console.WriteLine("Ответ: " + (a / b));
                     break;
             }
