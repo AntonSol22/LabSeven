@@ -1,0 +1,7 @@
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\bin\Debug\CaclGit.exe.config
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\bin\Debug\CaclGit.exe
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\bin\Debug\CaclGit.pdb
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\obj\Debug\CaclGit.csproj.AssemblyReference.cache
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\obj\Debug\CaclGit.csproj.CoreCompileInputs.cache
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\obj\Debug\CaclGit.exe
+C:\Users\qwayz\source\repos\CaclGit\CaclGit\obj\Debug\CaclGit.pdb
